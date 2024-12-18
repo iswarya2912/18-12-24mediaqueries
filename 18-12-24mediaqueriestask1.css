@@ -1,0 +1,123 @@
+@media screen and (min-width : 768px) and (max-width : 1024px){
+    body{
+        background-color: lightblue;
+       
+    }
+}
+@media screen and (min-width : 600px) and (max-width : 1200px){
+    p{
+        font-size: 18px;
+    }
+}
+
+.container {
+    background-color: lightgreen;
+        color: black;
+}
+@media screen and (max-width : 480px){
+    .container{
+       background-color: aqua;
+       display:flex;
+       color: white;
+       gap:15px;
+    }
+}
+h1{
+    color: orange;
+}
+@media screen and (min-width : 500px) and (max-width : 800px){
+    h1{
+        color:green
+    }
+}
+@media screen and (max-width : 400px){
+    img{
+    display:none;
+   }
+}
+.container1{
+    font-size: 1.5rem;
+    background-color: skyblue;
+}
+
+@media screen and (max-width : 1024px){
+    .container1 {
+        padding:20px;
+        border: 2px solid;
+    }
+}
+.header{
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+@media screen and (min-width :600px) and (max-width :1200px) {
+   .header{
+    background-color: lightgray;
+   }
+}
+
+p{
+    font-size: 20px;
+}
+@media screen and (max-width :480px) {
+    p{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width :600px) {
+    .image1>img {
+        width: 100%;
+    }
+}
+
+a {
+    color: #a52a2a;
+    text-decoration: none;
+}
+@media screen and (min-width :700px) and (max-width :1200px) {
+    a {
+      color: blue;
+    }
+}
+
+h2{
+    color: #a52a2a;
+}
+@media screen and (min-width :500px) and (max-width :800px) {
+    h2{
+        font-size: 24px;
+    }
+}
+
+
+.container2{
+    background-color: #b0e0e6;
+    border: none;
+}
+@media screen and (min-width :1024px) {
+.container2{
+    border: 2px solid black;
+}
+}
+
+.sidebar {
+    background-color: yellow;
+    padding: 15px;
+    box-sizing: border-box;
+}
+@media screen and (min-width :800px) and (max-width :1200px) {
+    .sidebar {
+        width: 250px;
+    }
+}
+
+.container2 {
+    font-size: 20px;
+    background-color: lightskyblue;
+}
+@media screen and (min-width :600px) {
+    .container2{
+        flex-direction: column;
+    }
+}
